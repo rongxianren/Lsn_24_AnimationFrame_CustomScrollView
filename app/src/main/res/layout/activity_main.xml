@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rongxianren.lsn_24_animationframe_customscrollview.MyCustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rongxianren.lsn_24_animationframe_customscrollview.MainActivity">
+
+    <com.rongxianren.lsn_24_animationframe_customscrollview.CustomScrollViewContentContainer
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:gravity="center"
+            android:text="冯绍峰对着倪妮发誓说：‘’如果有一天我离开了你，我就把名字倒着念‘’。倪妮说：‘我也是’’！——尼玛，看着我也是醉了！"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:from_color="@color/colorPrimaryDark"
+            app:to_color="@color/colorAccent" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/baggage"
+            app:isAlpha_able="true"
+            app:scroll_translation="from_left|from_bottom" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimary"
+            app:isAlpha_able="true" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:src="@drawable/shoes"
+            app:scroll_translation="from_right" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:text="冯绍峰对着倪妮发誓说：‘’如果有一天我离开了你，我就把名字倒着念‘’。倪妮说：‘我也是’’！——尼玛，看着我也是醉了！"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:isAlpha_able="true"
+            app:scroll_translation="from_bottom" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sweet"
+            app:isScale_able="true" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/camera"
+            app:scroll_translation="from_bottom" />
+    </com.rongxianren.lsn_24_animationframe_customscrollview.CustomScrollViewContentContainer>
+
+
+</com.rongxianren.lsn_24_animationframe_customscrollview.MyCustomScrollView>

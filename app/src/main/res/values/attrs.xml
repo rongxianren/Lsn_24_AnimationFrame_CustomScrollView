@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomScrollViewContentContainer">
+        <attr name="isAlpha_able" format="boolean" />
+        <attr name="isScale_able" format="boolean" />
+        <attr name="scroll_translation" />
+        <attr name="from_color" format="color" />
+        <attr name="to_color" format="color" />
+    </declare-styleable>
+
+
+    <attr name="scroll_translation">
+        <flag name="from_left" value="0x01" />
+        <flag name="from_top" value="0x02" />
+        <flag name="from_right" value="0x04" />
+        <flag name="from_bottom" value="0x08" />
+    </attr>
+</resources>
